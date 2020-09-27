@@ -1,0 +1,337 @@
+/* default css */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: helvetica,arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #3b5998;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover{text-decoration: underline;}
+
+.center {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* main css */
+.header-area {
+    background-color: #3a5795;
+    overflow: hidden;
+}
+
+.logo {
+    width: 38%;
+    float: left;
+}
+
+.login-header {
+    width: 37%;
+    float: right;
+}
+
+.logo img {
+	margin: 22px 0px;
+}
+
+.login-form {
+	overflow: hidden;
+}
+
+.email-form {
+	float: left;
+}
+
+.email-form p {
+	color: #fff;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.email-form input {
+	display: block;
+}
+
+.haf-check {
+    display: inline;
+    margin-top: 5px;
+}
+
+.password-form {
+	float: left;
+	margin-left: 30px;
+}
+
+.logged {
+	display: inline;
+	position: relative;
+	top: -14px;
+    left: 22px;
+    margin-top: 5px;
+}
+
+.password-form a {
+	text-decoration: none;
+	color: #c4c9d4;
+}
+
+.submit {
+	float: right;
+}
+
+.password-form p {
+	font-size: 13px;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.password-form a {
+	display: inherit;
+	font-size: 13px;
+	margin-bottom: ;
+	margin-top: 5px;
+}
+
+.submit input {
+	padding: 2px 9px;
+	margin-top: 39px;
+	background-color: #5a82d6;
+	border: 0px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* content-area css */
+
+.content-area {
+    background-color: #edf0f5;
+}
+
+.center {
+    overflow: hidden;
+}
+
+.left-content {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.right-content {
+    width: 48%;
+    float: right;
+}
+
+.left-content h2 {
+	margin-top: 70px;
+	font-size: 28px;
+	margin-top: ;
+	margin-bottom: 50px;
+}
+
+.icon-text {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.icon {
+	float: left;
+}
+
+.icon img {
+	width: 50px;
+	margin-right: 25px;
+}
+
+.texts {
+	float: left;
+	margin-top: 10px;
+}
+
+.texts p {
+	color: #777;
+}
+
+.texts p span {
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #333;
+}
+
+.sing-up-text h1 {
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+
+.sing-up-text h4 {
+	color: #777;
+	margin-bottom: 15px;
+	font-weight: normal;
+	font-size: 21px;
+}
+
+.haf {
+	width: 49%;
+	padding: 12px 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+
+.margin_right {
+	margin-right: 1%;
+}
+
+.ful {
+	width: 100%;
+	padding: 12px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 5px 0px;
+	font-size: 17px;
+}
+
+.birthday_fileds h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.birthday_fileds select {
+	width: 15%;
+	padding: 7px 10px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.gander {
+	width: 100%;
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+
+.gander span {
+	font-size: 13px;
+}
+
+.tarms p {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.singup-submit button {
+	padding: 10px 80px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #609b4d;
+	border-radius: 5px;
+	border: 0px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.singup-submit:hover button{
+	background:linear-gradient(#609b4d, #578843) repeat scroll 0 0;
+}
+.under_form {
+	height: 0.9px;
+	border: 0px;
+	background-color: #ccc;
+	margin-bottom: 15px;
+}
+
+.createapage {
+	color: #666;
+	font-size: 17px;
+	margin-bottom: 25px;
+}
+
+.langueage-menu li {
+	display: inline;
+}
+
+.langueage-menu a {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.langueage-menu li:first-child a {
+	margin-left: 0px;
+}
+
+.futafuta {
+	background-color: #edf0f5;
+	padding: 0px 11px 6px 0px;
+	text-align: center;
+}
+
+.futafuta:hover  {
+	background-color: #999;
+}
+
+.under-form.margins {
+	height: .9px;
+	border: 0px;
+	background-color: #ccc;
+	margin-bottom: 5px;
+}
+
+.under-footer_menu {
+	overflow: hidden;
+}
+
+.menu-ites {
+	float: left;
+	margin-left: 50px;
+}
+
+.menu-ites ul li a {
+	font-size: 13px;
+}
+
+.menu-ites ul li a img {
+	width: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.margin-left {
+	margin-left: 0px;
+
+}
+
+.under-footer_menu li {
+	margin-bottom: 8px;
+}
+
+.facebookcpye {
+	margin: 20px 0px;
+}
+
+.facebookcpye p {
+	font-size: 13px;
+}
+
+.facebookcpye a {
+	font-size: 13px;
+}
